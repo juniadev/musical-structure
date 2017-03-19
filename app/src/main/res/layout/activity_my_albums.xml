@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_discover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.juniadev.musicalstructure.MyAlbumsActivity">
+
+    <LinearLayout
+        style="@style/mainLayout"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            style="@style/secondaryText"
+            android:text="@string/my_albums_explanation" />
+
+        <LinearLayout
+            style="@style/mainLayout"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/album_image_1"
+                style="@style/album"
+                android:src="@drawable/trolls_album"
+                android:layout_marginRight="@dimen/main_padding"/>
+
+            <ImageView
+                android:id="@+id/album_image_2"
+                style="@style/album"
+                android:src="@drawable/phantom_opera_album" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

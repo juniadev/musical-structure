@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context="com.wordpress.juniadev.musicalstructure.MainActivity">
+
+    <LinearLayout
+        style="@style/mainLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/mainSecondaryLinearLayout"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/main_padding">
+
+            <Button
+                android:id="@+id/my_albums_button"
+                style="@style/mainIcons"
+                android:layout_marginRight="@dimen/main_padding"
+                android:drawableTop="@drawable/discover_icon"
+                android:text="@string/my_albums_activity" />
+
+            <Button
+                android:id="@+id/search_button"
+                style="@style/mainIcons"
+                android:drawableTop="@drawable/search_icon"
+                android:text="@string/search_activity" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorDivider" />
+
+        <LinearLayout
+            style="@style/mainSecondaryLinearLayout"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/main_padding">
+
+            <TextView
+                style="@style/primaryText"
+                android:text="@string/last_played" />
+
+            <ImageView
+                android:id="@+id/last_played_album_image"
+                style="@style/album"
+                android:src="@drawable/trolls_album" />
+
+            <TextView
+                android:layout_marginTop="@dimen/main_padding"
+                style="@style/secondaryText"
+                android:text="@string/last_played_explanation" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

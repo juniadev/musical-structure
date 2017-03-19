@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="my_albums_activity">My Albums</string>
+    <string name="my_albums_explanation">Explanation: make a query using MediaStore, to get the user\'s albums in the device.\nhttp://stackoverflow.com/a/9361161</string>
+    <string name="now_playing_activity">Now Playing</string>
+    <string name="now_playing_explanation">Explanation: display the selected album cover and the song name. Play the song using Android\'s MediaPlayer.\nhttps://developer.android.com/guide/topics/media/mediaplayer.html\nAlso, save the album title in the device\'s storage, to be displayed in activity_main.</string>
+    <string name="search_activity">Search</string>
+    <string name="album_title">Album title</string>
+    <string name="song_title">Song title</string>
+    <string name="search_explanation">Explanation: create a searchable configuration and activity, and configure the SearchWidget.\nhttps://developer.android.com/guide/topics/search/search-dialog.html#UsingSearchWidget</string>
+    <string name="search_results_activity">Search Results</string>
+    <string name="search_results_explanation">Explanation: populate the UI dinamically with the search results.\nhttp://stackoverflow.com/a/1914600</string>
+    <string name="last_played">Last played:</string>
+    <string name="last_played_explanation">Explanation: get the name of the last album played using SharedPreferences.\nhttps://developer.android.com/training/basics/data-storage/shared-preferences.html</string>
+</resources>

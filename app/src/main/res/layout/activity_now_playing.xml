@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_now_playing"
+    tools:context="com.wordpress.juniadev.musicalstructure.NowPlayingActivity">
+
+    <LinearLayout
+        style="@style/mainLayout"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/secondaryText"
+            android:layout_marginBottom="20dp"
+            android:text="@string/now_playing_explanation"/>
+
+        <ImageView
+            style="@style/album"
+            android:src="@drawable/trolls_album"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/primaryText"
+            android:layout_marginTop="10dp"
+            android:text="Can't stop the feeling!" />
+
+        <LinearLayout
+            style="@style/mainLayout"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <Button
+                style="@style/mainIcons"
+                android:drawableTop="@drawable/previous_icon"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                style="@style/mainIcons"
+                android:drawableTop="@drawable/play_icon"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                style="@style/mainIcons"
+                android:drawableTop="@drawable/next_icon" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
